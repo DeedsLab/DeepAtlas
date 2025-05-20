@@ -11,6 +11,7 @@ This step is optional, for creating data to explore if needed. If you have a dat
 You will be prompted to enter a number of points and a shape. The shape options are: hypersphere, s_curve, swiss_roll
 
 Input: Filepath to save the data to
+
 Output: Saves data file(s) to the specified location
 
 ## 1: Local Neighborhoods
@@ -22,6 +23,7 @@ You will be prompted to enter a data nickname for file-saving purposes. You will
 Input:
 1. Filepath to the high dimensional data in .csv with no row names or column names
 2. Filepath to save the result to
+
 Output: Creates a folder named "clusters" and saves k-means clusters of the data
 
 ## 2: PC vs. AJD
@@ -31,6 +33,7 @@ This step calculates the Average Jaccard Distance (AJD) at each PC. Once the res
 Input:
 1. Filepath to k-means clusters. If you have not made changes, this will be the path to the directory "clusters" made in Step 1
 2. Filepath to save the result to
+
 Output: Saves the AJD vs. PC data and displays a plot for visual inspection
 
 ## 3: Neural Network
@@ -49,6 +52,7 @@ By default, the neural network will be fully connected and each layer will have 
 Input:
 1. Filepath to k-means clusters. If you have not made changes, this will be the path to the directory "clusters" made in Step 1
 2. Filepath to save the result to
+
 Output: Saves neural network training information including:
 - plots of loss over time during training
 - a log of the loss at each training epoch
